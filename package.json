@@ -1,5 +1,5 @@
 {
-  "name": "hapi-routes",
+  "name": "hapi-routes-recursive",
   "version": "3.0.0",
   "description": "Hapi plugin for registering routes",
   "main": "lib/index.js",
@@ -35,6 +35,7 @@
     "lab": "13.x.x"
   },
   "dependencies": {
-    "async": "2.x.x"
+    "async": "2.x.x",
+    "fs-readdir-recursive": "^1.0.0"
   }
 }

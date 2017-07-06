@@ -90,23 +90,3 @@ lab.experiment('With right settings', () => {
         });
     });
 });
-
-lab.experiment('With wrong settings', () => {
-
-    it('Returns an error on invalid dir option', (done) => {
-
-        const server = new Hapi.Server();
-        server.connection();
-
-        return server.register({
-            register: require('../'),
-            options: { dir: Path.join(__dirname, 'invalid') }
-        }, (err) => {
-
-            expect(err).to.exist();
-            expect(err.message).to.include('ENOENT');
-
-            return done();
-        });
-    });
-});
