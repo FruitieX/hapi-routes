@@ -1,6 +1,6 @@
 {
   "name": "hapi-routes-recursive",
-  "version": "3.0.0",
+  "version": "16.0.0",
   "description": "Hapi plugin for registering routes",
   "main": "lib/index.js",
   "private": false,
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Salesflare/hapi-routes.git"
+    "url": "https://github.com/FruitieX/hapi-routes.git"
   },
   "keywords": [
     "hapi",
@@ -17,12 +17,12 @@
     "routes",
     "plugin"
   ],
-  "author": "Adri Van Houdt <adri.van.houdt@gmail.com>",
+  "author": "FruitieX",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Salesflare/hapi-routes/issues"
+    "url": "https://github.com/FruitieX/hapi-routes/issues"
   },
-  "homepage": "https://github.com/Salesflare/hapi-routes",
+  "homepage": "https://github.com/FruitieX/hapi-routes",
   "peerDependencies": {
     "hapi": ">=8.x.x"
   },
